@@ -164,7 +164,7 @@ def convert_to_int(text):
     try:
         result_int = int(text)
     except (TypeError, ValueError) as identifier:
-        print("Не является числом - СОСИ!!!: " + str(identifier))
+        print("Не является числом - ХУЙ СОСИ!!!: " + str(identifier))
         quit()
 
 main_number = sys.argv[1]
